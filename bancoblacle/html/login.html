@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Blacle - Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <div class="col-md-6">
+                <h2 class="login-title text-center">Banco Blacle</h2>
+                <h3 class="login-title text-center">Iniciar Sesión</h3>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Ingrese su correo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Ingrese su contraseña" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                </form>
+                <p class="register-link text-center">¿No tienes cuenta? <a href="/html/register.html">Regístrate aquí</a></p>
+                <p class="home-link text-center"><a href="../index.html">Volver al inicio</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../JS/login.js"></script>
+</body>
+</html>

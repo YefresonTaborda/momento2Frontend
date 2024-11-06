@@ -1,0 +1,86 @@
+body {
+    background-color: #f3f8ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #4a4ea1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #4a4ea1;
+    border-color: #4a4ea1;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #373a8d;
+    border-color: #373a8d;
+}
+
+.btn-success {
+    background-color: #6d72c3;
+    border-color: #6d72c3;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #595fa8;
+    border-color: #595fa8;
+}
+
+footer {
+    background-color: #e3f2fd;
+}
+
+.home-link {
+    color: #4a4ea1;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.home-link a {
+    color: #6d72c3;
+}
+
+.home-link a:hover {
+    color: #373a8d;
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('./assets/bancoHeader.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+header h1, header p {
+    color: #ffffff;
+}
